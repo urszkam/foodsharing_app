@@ -1,6 +1,6 @@
 import unittest
 
-from app import app
+from backend.app import app
 
 # tests require existance of Sherfood DB and inserting test data into tables (db.sql) 
 # prior to running the tests !

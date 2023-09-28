@@ -1,7 +1,7 @@
 import unittest
 
-from email_sender import render_email_msg
-from config import EMAIL_USER
+from backend.email_sender import render_email_msg
+from backend.config import EMAIL_USER
 
 # tests require existance of Sherfood DB and inserting test data into tables (db.sql) 
 # prior to running the tests !

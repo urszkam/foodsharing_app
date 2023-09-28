@@ -7,11 +7,11 @@ from flask_mysqldb import MySQL
 from flask_mail import Mail, Message
 import MySQLdb.cursors
 
-from db_connections import get_adverts_by_id, get_adverts_by_location, add_advertisment
-from geo_calculations import extract_lat_long_via_address, calculate_distance
-from login_logout import log_out, login_check
-from email_sender import render_email_msg
-from config import HOST, USER, PASSWORD, DB_NAME, EMAIL_USER, EMAIL_PASSWORD
+from backend.db_connections import get_adverts_by_id, get_adverts_by_location, add_advertisment
+from backend.geo_calculations import extract_lat_long_via_address, calculate_distance
+from backend.login_logout import log_out, login_check
+from backend.email_sender import render_email_msg
+from backend.config import HOST, USER, PASSWORD, DB_NAME, EMAIL_USER, EMAIL_PASSWORD
 
 
 

@@ -1,6 +1,6 @@
 import unittest
 
-from geo_calculations import calculate_distance, extract_lat_long_via_address
+from backend.geo_calculations import calculate_distance, extract_lat_long_via_address
 
 
 class TestGeoCalculations(unittest.TestCase):

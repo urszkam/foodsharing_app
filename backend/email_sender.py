@@ -1,7 +1,7 @@
 import re
 from flask_mail import Message
-from db_connections import get_email_address
-from config import EMAIL_USER
+from backend.db_connections import get_email_address
+from backend.config import EMAIL_USER
 
 
 

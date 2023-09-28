@@ -1,6 +1,6 @@
 import unittest
 
-from db_connections import get_adverts_by_id, get_adverts_by_location, get_email_address, add_advertisment, keys
+from backend.db_connections import get_adverts_by_id, get_adverts_by_location, get_email_address, add_advertisment, keys
 
 # tests require existance of Sherfood DB and inserting test data into tables (db.sql) 
 # prior to running the tests !

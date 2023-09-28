@@ -2,7 +2,7 @@ import mysql.connector
 from datetime import date
 from collections import defaultdict, namedtuple
 from functools import wraps
-from config import USER, PASSWORD, HOST, DB_NAME
+from backend.config import USER, PASSWORD, HOST, DB_NAME
 
 
 tags = ['vegan', 'vegetarian', 'kosher', 'halal', 'glutenfree', 'lactosefree']

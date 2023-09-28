@@ -1,6 +1,6 @@
 from haversine import inverse_haversine, Direction
 import requests
-from config import GOOGLE_API_KEY
+from backend.config import GOOGLE_API_KEY
 
 def extract_lat_long_via_address(address):
     lat = lon = None
